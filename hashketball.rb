@@ -19,11 +19,11 @@ end
 
 
 def shoe_size(player_name)
-  size = []
+  size = 0
   game_hash.each do |location, team_data|
     team_data.each do |attribute, data|
       if data.include?(player_name)
-        size << data[player_name][:shoe] 
+        size = data[player_name][:shoe] 
       end
     end
   end
