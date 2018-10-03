@@ -16,7 +16,7 @@ def num_points_scored(player_name)
     end
     
   end
-  points_scored.to_s
+  points_scored.flatten
 end
 
 
