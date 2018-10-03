@@ -73,7 +73,7 @@ def player_stats(player_name)
         data.each do |name, player_data|
           if name == player_name
             statistics = player_data
-            #binding.pry
+            binding.pry
           end
         end
       end
