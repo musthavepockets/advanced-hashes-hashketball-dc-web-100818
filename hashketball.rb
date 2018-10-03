@@ -67,7 +67,7 @@ end
 
 def player_stats(player_name)
   statistics = {}
-  game_hash.each do |location, team_data| = Hash.new(statistics)
+  game_hash.each do |location, team_data|
     team_data.each do |attribute, data|
       if data.is_a?(Hash) 
         data.each do |name, player_data|
@@ -84,7 +84,7 @@ def player_stats(player_name)
     end
     
   end
-  statistics
+  Hash.new(statistics)
 end
 
 
