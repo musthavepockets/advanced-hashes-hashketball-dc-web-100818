@@ -75,15 +75,16 @@ def player_stats(player_name)
             if name == player_name
               statistics.merge(player_data)
             else
-              "crap"
+              
               #binding.pry
             end
           end
         end
       end
     end
+    statistics
   end
-  statistics
+  
 end
 
 
