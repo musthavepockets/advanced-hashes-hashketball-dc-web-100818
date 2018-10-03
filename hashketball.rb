@@ -12,9 +12,7 @@ def num_points_scored(player_name)
       if data.include?(player_name)
         points_scored = data[player_name][:points] #game_hash[location][attribute][player_name][:points]
       end
-      
     end
-    
   end
   points_scored
 end
@@ -81,7 +79,7 @@ def player_stats(player_name)
       end
     end
   end
-  Hash.new(statistics)
+  statistics
 end
 
 
