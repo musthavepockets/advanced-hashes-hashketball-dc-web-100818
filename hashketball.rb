@@ -80,7 +80,7 @@ def player_stats(player_name)
       end
     end
   end
-  return statistics
+  statistics
 end
 
 
