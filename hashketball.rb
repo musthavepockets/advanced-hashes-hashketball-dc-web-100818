@@ -12,6 +12,7 @@ def num_points_scored(player_name)
       if data.include?(player_name)
         data.each do |key, value|
         points_scored = data[player_name][:points] #game_hash[location][attribute][player_name][:points]
+        end
       end
     end
   end
