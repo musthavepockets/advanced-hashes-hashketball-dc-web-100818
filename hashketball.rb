@@ -80,7 +80,7 @@ def player_stats(player_name)
       end
     end
   end
-  return statistics.to_hash
+  return statistics
 end
 
 
