@@ -72,9 +72,10 @@ def player_stats(player_name)
       if data.is_a?(Hash) 
         data.each do |name, player_data|
           player_data.each do |key, value|
-          if name == player_name
-            statistics.merge(player_data)
-            #binding.pry
+            if name == player_name
+              statistics.merge(player_data)
+              #binding.pry
+            end
           end
         end
       end
