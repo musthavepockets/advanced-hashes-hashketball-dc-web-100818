@@ -71,6 +71,7 @@ def player_stats(player_name)
     team_data.each do |attribute, data|
       if data.is_a?(Hash) 
         data.each do |name, player_data|
+          player_data.each do |key, value|
           if name == player_name
             statistics = player_data
             binding.pry
