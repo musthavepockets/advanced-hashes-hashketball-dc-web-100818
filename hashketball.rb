@@ -73,18 +73,18 @@ def player_stats(player_name)
         data.each do |name, player_data|
           player_data.each do |key, value|
             if name == player_name
-              statistics.merge(player_data)
-            else
+              statistics = player_data
+          
               
-              #binding.pry
+              binding.pry
             end
           end
         end
       end
     end
-    statistics
+    
   end
-  
+  statistics
 end
 
 
