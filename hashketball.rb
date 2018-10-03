@@ -74,7 +74,7 @@ def player_stats(player_name)
           player_data.each do |key, value|
           if name == player_name
             statistics.merge(player_data)
-            binding.pry
+            #binding.pry
           end
         end
       end
