@@ -74,8 +74,6 @@ def player_stats(player_name)
           player_data.each do |key, value|
             if name == player_name
               statistics = player_data
-          
-              
               #binding.pry
             end
           end
