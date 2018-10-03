@@ -6,7 +6,7 @@ end
 
 
 def num_points_scored(player_name)
-  points_scored = 0
+  points_scored = 2
   game_hash.each do |location, team_data|
     team_data.each do |attribute, data|
       if data.include?(player_name)
